@@ -6,91 +6,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML portfolio Project</title>
+    <link rel="stylesheet" href="./Style.css" />
+
 </head>
 <!--Body-->
 
-<body>
+<body class="bg-warning">
 
     <!-- Div For Menu : navigation bar-->
     <div>
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
 
 
-        <nav>
 
-            <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td>
-                        <table border="0" cellpadding="15" cellspacing="0" width="90%" align="center">
-                            <tr>
-                                <td>
+                <p class="navbar-brand js-scroll-trigger">HASNI ZIED</p>
 
-
-                                </td>
-
-                                <td>
-                                    <font face="Comic sans MS" size="6">
-                                        <b>HASNI ZIED</b>
-                                    </font>
-                                </td>
-
-                                <td width="15%">
-
-                                </td>
-
-
-                                <td>
-                                    |
-                                </td>
-
-                                <td>
-                                    <a href="C:\Users\HASNI\Desktop\GoMyCode\index.html">
-                                        <font face="Verdana" size="5" color=black>
-                                            Home
-                                        </font>
-                                    </a>
-                                </td>
-
-                                <td>
-                                    |
-                                </td>
-
-                                <td>
-
-                                    <a href="C:\Users\HASNI\Desktop\GoMyCode\Projects.html">
-                                        <font face="Verdana" size="5" color=black>
-                                            Projects
-                                        </font>
-                                    </a>
-                                </td>
-
-                                <td>
-                                    |
-                                </td>
-
-                                <td>
-                                    <a href="C:\Users\HASNI\Desktop\GoMyCode\Achievements.html">
-                                        <font face="Verdana" size="5" color=black>
-                                            Achievements
-                                        </font>
-                                    </a>
-                                </td>
-
-                                <td>
-                                    |
-                                </td>
-
-                                <td>
-                                    <a href="C:\Users\HASNI\Desktop\GoMyCode\Contact.html">
-                                        <font face="Verdana" size="5" color=black>
-                                            Contact
-                                        </font>
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="./Projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="./Achievements.html">Achievements</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="./Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </div>
 
@@ -99,7 +49,7 @@
 
 
 
-
+    <br><br><br><br>
 
     <!--Contact(start)-->
     <table id="contact" width="100%" cellpadding="0" cellspacing="0">
@@ -210,84 +160,90 @@
 
 
     <!--Footer1(start)-->
-    <table id="footer" width="100%" cellpadding="0" cellspacing="0">
-        <tr>
-            <td>
-                <table cellpadding="15" cellspacing="0" width="50%" align="center">
-                    <tr>
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>LinkedIn</b>
-
-                        </td>
-
-                        <td>
-                            |
-                        </td>
-
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>GitHub</b>
-
-                            </a>
-                        </td>
-
-                        <td>
-                            |
-                        </td>
+    <div class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-bottom">
 
 
 
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>Twitter</b>
+        <table id="footer" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table cellpadding="15" cellspacing="0" width="50%" align="center">
+                        <tr>
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>LinkedIn</b></a>
 
-                        </td>
+                            </td>
 
-                        <td>
-                            |
-                        </td>
+                            <td>
+                                |
+                            </td>
 
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>Instagram</b>
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>GitHub</b>
 
-                        </td>
+                                </a>
+                            </td>
 
-                        <td>
-                            |
-                        </td>
-
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>Email</b>
-
-                        </td>
-
-
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <!--Footer1(end)-->
+                            <td>
+                                |
+                            </td>
 
 
-    <!--Footer2(start)-->
+
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>Twitter</b></a>
+
+                            </td>
+
+                            <td>
+                                |
+                            </td>
+
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>Instagram</b></a>
+
+                            </td>
+
+                            <td>
+                                |
+                            </td>
+
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>Email</b></a>
+
+                            </td>
 
 
-    <table   cellpadding="15" cellspacing="0" width="40%"  align="center"> 
-        <tr>
-            <td width="100%" align="center" >
-                <font face="Verdana" size="2">
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <!--Footer1(end)-->
+
+
+        <!--Footer2(start)-->
+
+
+        <table cellpadding="15" cellspacing="0" width="40%" align="center">
+            <tr>
+                <td id="tdfooter" width="100%">
+
                     ©Copyright 2023 by ZIED HASNI.
                     All rights reserved.
-                </font>
-            </td>
+
+                </td>
 
 
-        </tr>
-    </table>
+            </tr>
+        </table>
+    </div>
     <!--Footer2(end)-->
 
 </body>

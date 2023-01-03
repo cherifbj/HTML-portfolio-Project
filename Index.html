@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg-warning">
 <!--Header-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML portfolio Project</title>
-     
+    <link rel="stylesheet" href="./Style.css" />
+
 </head>
 <!--Body-->
 
-<body>
-    
+<body class="bg-warning">
     <!-- Div For Menu : navigation bar-->
-    
-    
+    <div>
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+
+
+
+                <p class="navbar-brand js-scroll-trigger">HASNI ZIED</p>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="./Projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="./Achievements.html">Achievements</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="./Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
     <!-- End Div For Menu : navigation bar-->
-
-
-
-
     <!--Home Page (start)-->
 
 
@@ -32,7 +55,7 @@
 
 
 
-
+                <br><br><br><br>
 
 
                 <td>
@@ -49,54 +72,59 @@
                         <tr>
 
                             <td width="40%" align="center">
-                                <img src="./img\zied.png" width="50%"
-                                    alt="picture of zied">
+
+                                <div class="carousel-container">
+
+                                    <img style="width: 300px; height: 300px;  box-shadow: 35px 30px 9px #850;"
+                                        src="./img\zied.png" width="100%" alt="picture of zied">
+                                </div>
+
                             </td>
-                            <td width="60%">
-                                <font face="Verdana" size="4">
-
-
-
-
-                                    My names's ZIED HASNI, and I'm from Boussalem in Tunisia.<br><br>
-
-                                    I'm 37, I'm Maried and I have 3 children.<br><br>
-
-                                    I work as QA/QC & ERP Auditor from Feb. 2014 until now at NAGECO in Libya.<br><br>
-
-
-                                    This website is basically one of my
-                                    Web Development project which is
-                                    built using HTML only.<br><br>
-
-
-
-
-                                    <UL>
-                                        <LI>
-                                            Experienced product owner
-                                        </LI>
-                                        <LI>
-                                            8 years of experience
-                                        </LI>
-                                        <LI>
-                                            Company owner: NAGECO
-                                        </LI>
-                                        <LI>
-                                            International experience, including missions in Tunisia, Libya.
-                                        </LI>
-                                    </UL>
+                            <td id="td_style" width="60%">
 
 
 
 
 
+                                My names's ZIED HASNI, and I'm from Boussalem in Tunisia.<br><br>
+
+                                I'm 37, I'm Maried and I have 3 children.<br><br>
+
+                                I work as QA/QC & ERP Auditor from Feb. 2014 until now at NAGECO in Libya.<br><br>
 
 
-                                    <br><br> Cheers,
-                                    <br>
-                                    <b>HASNI ZIED.
-                                </font>
+                                This website is basically one of my
+                                Web Development project which is
+                                built using HTML only.<br><br>
+
+
+
+
+                                <ul>
+                                    <li>
+                                        Experienced product owner
+                                    </li>
+                                    <li>
+                                        8 years of experience
+                                    </li>
+                                    <li>
+                                        Company owner: NAGECO
+                                    </li>
+                                    <li>
+                                        International experience, including missions in Tunisia, Libya.
+                                    </li>
+                                </ul>
+
+
+
+
+
+
+
+                                <br><br> Cheers,
+                                <br>
+                                <b>HASNI ZIED.</b>
+
                             </td>
                         </tr>
                     </table>
@@ -114,90 +142,98 @@
 
 
 
-    <br><br><br><br><br>
+
 
 
     <!--Footer1(start)-->
-    <table id="footer" width="100%" cellpadding="0" cellspacing="0">
-        <tr>
-            <td>
-                <table cellpadding="15" cellspacing="0" width="50%" align="center">
-                    <tr>
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>LinkedIn</b>
 
-                        </td>
-
-                        <td>
-                            |
-                        </td>
-
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>GitHub</b>
-
-                            </a>
-                        </td>
-
-                        <td>
-                            |
-                        </td>
+    <div class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-bottom">
 
 
 
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>Twitter</b>
+        <table id="footer" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table cellpadding="15" cellspacing="0" width="50%" align="center">
+                        <tr>
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>LinkedIn</b></a>
 
-                        </td>
+                            </td>
 
-                        <td>
-                            |
-                        </td>
+                            <td>
+                                |
+                            </td>
 
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>Instagram</b>
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>GitHub</b>
 
-                        </td>
+                                </a>
+                            </td>
 
-                        <td>
-                            |
-                        </td>
-
-                        <td width="13%" valign="top">
-                            <a href="#">
-                                <b>Email</b>
-
-                        </td>
-
-
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <!--Footer1(end)-->
+                            <td>
+                                |
+                            </td>
 
 
-    <!--Footer2(start)-->
+
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>Twitter</b></a>
+
+                            </td>
+
+                            <td>
+                                |
+                            </td>
+
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>Instagram</b></a>
+
+                            </td>
+
+                            <td>
+                                |
+                            </td>
+
+                            <td width="13%" valign="top">
+                                <a href="#">
+                                    <b>Email</b></a>
+
+                            </td>
 
 
-    <table   cellpadding="15" cellspacing="0" width="40%"  align="center"> 
-        <tr>
-            <td width="100%" align="center" >
-                <font face="Verdana" size="2">
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <!--Footer1(end)-->
+
+
+        <!--Footer2(start)-->
+
+
+        <table cellpadding="15" cellspacing="0" width="40%" align="center">
+            <tr>
+                <td id="tdfooter" width="100%">
+
                     ©Copyright 2023 by ZIED HASNI.
                     All rights reserved.
-                </font>
-            </td>
+
+                </td>
 
 
-        </tr>
-    </table>
+            </tr>
+        </table>
+    </div>
     <!--Footer2(end)-->
 
+    <!--Footer2(end)-->
 
 </body>
 
